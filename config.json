@@ -1,0 +1,16 @@
+{
+  "company_name": "Razorpay",
+  "input_file": "jobs_input.json",
+  "data_dir": "data",
+  "history_file": "history.json",
+  "new_jobs_file": "daily_new_jobs.json",
+  "outreach_file": "daily_outreach_list.txt",
+  "unique_key": "job_id",
+  "auto_encrypt": false,
+  "outreach_template": {
+    "greeting": "Hi [Hiring Manager / Recruiter Name],",
+    "intro": "I noticed the following new openings at Razorpay and wanted to reach out. I would love to learn more about these roles:",
+    "closing": "Please let me know if any of these roles could be a good fit. I am happy to share my resume or connect for a quick call.",
+    "signoff": "Best regards,\n[Your Name]"
+  }
+}

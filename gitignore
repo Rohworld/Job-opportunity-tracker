@@ -1,0 +1,15 @@
+# Generated / sensitive output -- never commit these
+data/
+*.enc
+gtm_key.salt
+pii_scan_report.txt
+
+# Env / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
